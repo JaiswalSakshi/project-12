@@ -217,6 +217,7 @@ nav{
     margin-top: 30px;
     background-color: #8BB7A2;
 }
+/* seven section */
 .seven-section{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -305,4 +306,157 @@ nav{
     list-style: none;
     color: #68696C;
     margin-top: 8px;
+}
+/* responsive */
+
+@media screen and (max-width: 700px) {
+    nav .list-item{
+        display: none;
+    }
+    .button-talk button{
+        margin-left: -50px;
+    }
+    .header{
+        height: 100%;
+    }
+    .second-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img-first img{
+        height: 100%;
+        width: 60%;
+        margin-left: 110px;
+        margin-top: 50px;
+    }
+    .contain1{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .contain1 h1{
+        font-size: 30px;
+    }
+    .contain1 input{
+        padding: 15px 80px;
+    }
+    .contain1 button{
+        margin-top: 10px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    .heading-two{
+        width: 80%;
+        margin-left: 60px;
+    }
+    .third-section{
+        margin-left: 30px;
+    }
+    .third{
+        margin-left: 10px;
+    }
+    .img-second img{
+        height: 100%;
+        width: 80%;
+        margin: 50px 50px;
+    }
+    .content2{
+        margin-left: 40px;
+        margin-top: 10px;
+        width: 80%;
+        text-align: center;
+        font-size: 25px;
+    }
+    /* fourth section */
+    .four-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img-third img{
+        height: 100%;
+        width: 80%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .contain3{
+        margin-left: 50px;
+        margin-top: 30px;
+        width: 70%;
+    }
+    /* fifth section */
+    .fifth-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img-fourth img{
+        width: 70%;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .contain4{
+        margin-left: 50px;
+        width: 70%;
+    }
+    .contain4 h1{
+        font-size: 25px;
+    }
+    /* sixth section */
+    .sixth-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img-fifth img{
+        width: 80%;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .contain5{
+        margin-left: 50px;
+        margin-top: 30px;
+        width: 70%;
+    }
+    .contain5 h1{
+        font-size: 25px;
+    }
+    /* seven section */
+    .seven-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: 30px 20px;
+    }
+    .seven-section h1{
+        font-size: 25px;
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 50PX;
+    }
+    .seven-section p{
+        margin-top: 0px;
+    }
+    /* <!-- Eighth section --> */
+    .eight-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 60px;
+    }
+    .see-more{
+        margin-left: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    /* footer */
+    .footer{
+        height: 20vh;
+        padding-bottom: 10px;
+    }
+    .footer-nav{
+        margin-left: 10px;
+    }
+    .social img{
+        margin-left: 20px;
+        height: 40px;
+    }
+    .footer-content{
+        display: none;
+    }
 }
